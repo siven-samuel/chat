@@ -6,7 +6,7 @@ but I wanted chat with usernames and memory.
 
 Live version: https://colorfulchat.herokuapp.com/
 
-![Showcase](https://i.imgur.com/bsAzDMv.png)
+![Showcase](https://i.imgur.com/F03LJ7A.png)
 
 ## Installation
 Download the repository and run `npm install`.

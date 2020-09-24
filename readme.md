@@ -1,10 +1,12 @@
 # Colorful chat
 
 Simple Socket.io and Express chat example. Easy to understand and extend.
-Inspired from [Chat example](https://socket.io/get-started/chat/) by socket io,
-I wanted chat with usernames and memory.
+Inspired from [Chat example](https://socket.io/get-started/chat/) by socket.io,
+but I wanted chat with usernames and memory.
 
 Live version: https://colorfulchat.herokuapp.com/
+
+![Showcase](https://i.imgur.com/bsAzDMv.png)
 
 ## Installation
 Download the repository and run `npm install`.

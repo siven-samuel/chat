@@ -1,5 +1,6 @@
 const socket = io();
 
+// attach new message to list
 function addMessage(obj) {
   const ul = document.getElementById('messages');
   const li = document.createElement('li');
@@ -13,14 +14,17 @@ function addMessage(obj) {
   ul.appendChild(li);
 }
 
+// load all the messages from server
 socket.on('allMessages', objs => {
   for (obj of objs) {
     addMessage(obj);
   }
 });
 
+// add one message to our board
 socket.on('receiveMessage', obj => addMessage(obj));
 
+// send new message to server
 function sendMessage() {
   const username = document.getElementById('username').value;
   const message = document.getElementById('send').value;
